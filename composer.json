@@ -2,6 +2,7 @@
     "name": "abrahanzarza/http-bundle",
     "description": "Module that provides HTTP routing, request and response",
     "type": "library",
+    "license": "BSD-3-Clause",
     "keywords": [
         "php",
         "http",
