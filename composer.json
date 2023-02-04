@@ -1,0 +1,32 @@
+{
+    "name": "abrahanzarza/http-bundle",
+    "description": "Module that provides HTTP routing, request and response",
+    "type": "library",
+    "keywords": [
+        "php",
+        "http",
+        "router",
+        "routing"
+    ],
+    "require": {
+        "php": "^8.1",
+        "php-di/php-di": "^6.3",
+        "symfony/http-kernel": "^6.2",
+        "symfony/routing": "^6.2",
+        "symfony/http-foundation": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbrahanZarza\\HttpBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AbrahanZarza\\HttpBundle\\Test\\": "test/src/",
+            "AbrahanZarza\\HttpBundle\\TestResources\\": "test/resources/"
+        }
+    }
+}
