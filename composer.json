@@ -2,7 +2,7 @@
     "name": "abrahanzarza/http-bundle",
     "description": "Module that provides HTTP routing, request and response",
     "type": "library",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "keywords": [
         "php",
         "http",
@@ -10,7 +10,7 @@
         "routing"
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.3",
         "php-di/php-di": "^6.3",
         "symfony/http-kernel": "^6.2",
         "symfony/routing": "^6.2",

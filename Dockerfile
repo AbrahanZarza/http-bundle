@@ -1,18 +1,18 @@
-FROM php:8.1-fpm-alpine
+FROM php:8.3-fpm-alpine
 
 EXPOSE 8000
 
 RUN apk --update add \
     alpine-sdk \
     openssl-dev \
-    php81-pear \
-    php81-dev \
+    php83-pear \
+    php83-dev \
     linux-headers \
     && rm -rf /var/cache/apk/*
 
 RUN pecl channel-update pecl.php.net
 
-ENV TZ ${TZ}
+ENV TZ=${TZ}
 
 RUN apk add --update --upgrade tzdata autoconf g++ make \
     && ln -s /usr/share/zoneinfo/$TZ /etc/localtime \
