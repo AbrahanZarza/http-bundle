@@ -1,7 +1,6 @@
 # HTTP Bundle
 
 ![PHP](https://img.shields.io/badge/php-8.3-blue)
-![Docker](https://img.shields.io/badge/docker-latest-lightblue)
 
 This library provides a micro HTTP framework with basics, routing and dependency injection container.
 
